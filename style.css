@@ -1,0 +1,97 @@
+/*
+    Registration Form
+    Author: Nikki Collins
+    Date:  2/8/21
+
+    Filename: style.css
+   */
+html{
+  background-image: linear-gradient(to right, #99ff99, #99ffeb);
+}
+table{
+  background-color: #80b3ff;
+  border-style: solid;
+  position: relative;
+  margin: 0px 15% 0px 15%;
+  box-shadow: 10px 10px 20px #888888;
+  font-family: 'Indie Flower', cursive;
+}
+
+h1{
+  background-color:#9a9ae5;
+  text-decoration: underline;
+  padding: 30px;
+  margin: 0;
+  text-align: center;
+
+
+}
+.tday, .suntday, .sattday, .tdaybio, .tdaymath, .tdayc, .tdayweb{
+  text-align: left;
+  vertical-align: text-top;
+  width: 30px;
+  height: 90px;
+  margin: 0;
+}
+.wkday{
+  width:155px;
+  text-align: center;
+  max-height: 15px;
+  background-color: #ffb3ff;
+}
+.note{
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/*colors the rows (odds/even)the appropriate colors*/
+tr:nth-child(even){
+  background-color: #ffe6ff;
+}
+tr:nth-child(odd){
+  background-color: white;
+}
+
+/*specifically targets the cells for color coordination*/
+.math, .mathhw{
+  color: red;
+}
+.mathhw{
+  font-family: 'Permanent Marker', cursive;
+}
+.tdaymath{
+    background-color: #ffcccc;
+}
+.bio, .biohw{
+  color: blue;
+}
+.biohw{
+  font-family: 'Permanent Marker', cursive;
+}
+.tdaybio{
+    background-color:#ccccff;
+}
+.c, .chw{
+  color: orange;
+}
+.tdayc{
+    background-color: #ffe680;
+}
+.chw{
+  font-family: 'Permanent Marker', cursive;
+}
+.web, .webhw{
+  color: green;
+}
+.webhw{
+  font-family: 'Permanent Marker', cursive;
+}
+.tdayweb{
+    background-color: #ccffcc;
+}
+
+/*keeps the weekends darker and a bit grey'd out but usable if need*/
+.sattday, .suntday{
+  background-color: grey;
+}
